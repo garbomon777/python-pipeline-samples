@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_python_pipeline_samples_1741741735946-pr-trigger-input-set
+  identifier: Build_python_pipeline_samples_1741741735946prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: CIPythonQuickstart
+  pipeline:
+    identifier: Build_python_pipeline_samples_1741741735946
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
